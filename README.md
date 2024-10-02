@@ -1,5 +1,7 @@
 This code is used for reproduce paper image.
 
+You need to to first install the `qspace_direction` package to use this.
+
 ### Single shell flipping (Fig. 2)
 
 1. Move to working directory
@@ -16,7 +18,6 @@ For example, for flipped result by method MILP-P-S(EEM), you should run
 ```bash
 python generate_MILPEEM.py
 ```
-(Note: you need to change `exec_path = "/path/to/direction_flip.py"` to your corresponding script path, e.g. `"~/dmritool-sampling/src/qspace_sampling/direction_flip.py"` if you clone the repo in the home directory)
 
 3. Draw picture
 ```bash
@@ -39,7 +40,6 @@ For example, for ordered result by method MILP-O-M, you should run
 ```bash
 python generate.py
 ```
-(Note: you also need to change `exec_path = "/path/to/direction_order.py"` to your corresponding script path)
 
 3. Draw picture
 ```bash
