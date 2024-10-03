@@ -9,5 +9,5 @@ for i in range(10, 260, 10):
     if exists(join(dst, f)):
         continue
     os.system(
-        f"python -m qspace_direction.direction_flip --input {join(src, f)} --output {join(dst, f)} -c DISTANCE"
+        f"direction_flip.py --input {join(src, f)} --output {join(dst, f)} -c DISTANCE"
     )
