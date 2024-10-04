@@ -1,7 +1,7 @@
 import os
 from os.path import join, exists
 
-src = "ElectricRepulsion"
+src = "../ElectricRepulsion"
 dst = "../ElectricRepulsion_dirflip"
 
 for i in range(10, 260, 10):
