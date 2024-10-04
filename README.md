@@ -1,6 +1,6 @@
 This code is used to reproduce images in our paper.
 
-You need to to first install the `qspace_direction` package to use this.
+You need to to first install the `spherical_uniform_sampling` package to use this.
 
 ### Single shell flipping 
 
